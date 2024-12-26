@@ -158,7 +158,7 @@ def main():
             with col2:
                 st.metric(
                     label=f"予測された{Config.TARGET_COL}の値",
-                    value=f"{prediction:.2f}°"
+                    value=f"{prediction:.2f}"
                 )
 
     # 注意事項
